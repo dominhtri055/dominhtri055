@@ -1,10 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="72" viewBox="0 0 760 72" role="img" aria-label="Animated cat walking back and forth">
-  <rect width="760" height="72" fill="none"/>
-  <line x1="30" y1="56" x2="730" y2="56" stroke="#30363d" stroke-width="2" stroke-linecap="round"/>
-  <text x="380" y="53" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#8b949e" letter-spacing="5">TRI DO</text>
-  <g>
-    <text x="0" y="42" font-size="34">🐈‍⬛</text>
-    <animateTransform attributeName="transform" type="translate" values="30 0;680 0;30 0" keyTimes="0;0.5;1" dur="8s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="1;0.92;1;0.92;1" dur="1s" repeatCount="indefinite"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="92" viewBox="0 0 760 92" role="img" aria-label="Animated cat walking, resting on Tri Do, then walking again">
+  <rect width="760" height="92" fill="none"/>
+
+  <text x="380" y="76" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#8b949e" letter-spacing="6">TRI DO</text>
+  <line x1="30" y1="80" x2="730" y2="80" stroke="#30363d" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Walking cat. It travels to the name, pauses, disappears while resting, then resumes. -->
+  <g id="walking-cat">
+    <text x="0" y="50" font-size="36">🐈‍⬛</text>
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="30 0;330 0;330 0;330 0;680 0;680 0;330 0;330 0;330 0;30 0"
+      keyTimes="0;0.18;0.22;0.42;0.60;0.64;0.78;0.82;0.94;1"
+      dur="16s"
+      repeatCount="indefinite"/>
+    <animate
+      attributeName="opacity"
+      values="1;1;1;0;0;1;1;1;0;1"
+      keyTimes="0;0.18;0.22;0.24;0.40;0.42;0.78;0.82;0.84;1"
+      dur="16s"
+      repeatCount="indefinite"/>
+  </g>
+
+  <!-- Resting cat appears directly over TRI DO. -->
+  <g id="resting-cat" opacity="0">
+    <text x="350" y="48" font-size="38">🐈‍⬛</text>
+    <text x="397" y="27" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#8b949e">z</text>
+    <text x="409" y="20" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#8b949e">z</text>
+    <animate
+      attributeName="opacity"
+      values="0;0;1;1;0;0;0;1;1;0"
+      keyTimes="0;0.22;0.24;0.40;0.42;0.80;0.84;0.92;0.94;1"
+      dur="16s"
+      repeatCount="indefinite"/>
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      values="0 380 48;0 380 48;8 380 48;8 380 48;0 380 48;0 380 48;8 380 48;8 380 48;0 380 48"
+      keyTimes="0;0.22;0.24;0.40;0.42;0.82;0.84;0.92;1"
+      dur="16s"
+      repeatCount="indefinite"/>
+  </g>
+
+  <!-- Tiny motion during the nap, like breathing. -->
+  <g opacity="0">
+    <ellipse cx="385" cy="55" rx="34" ry="4" fill="#8b949e" opacity="0.12"/>
+    <animate attributeName="opacity" values="0;0;0.45;0.15;0.45;0;0;0.45;0.15;0" keyTimes="0;0.24;0.27;0.32;0.38;0.42;0.84;0.87;0.91;1" dur="16s" repeatCount="indefinite"/>
   </g>
 </svg>
