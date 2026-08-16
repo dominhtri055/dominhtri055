@@ -1,6 +1,10 @@
-# Hi there 👋 I'm Tri Do
+<h1 align="left">
+  Hi there <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px" alt="Waving hand" /> I'm Tri Do
+</h1>
 
-### Full-Stack / Web Developer
+<p align="left">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&width=700&lines=Full-Stack+%2F+Web+Developer;React+%7C+Next.js+%7C+TypeScript+%7C+React+Native;Building+practical+products+with+clean+UX+%26+solid+backends" alt="Typing SVG" />
+</p>
 
 I'm a Software Development graduate based in **Moncton, New Brunswick, Canada 🇨🇦**. I enjoy building practical web and mobile products with modern front-end frameworks, APIs, authentication, databases, and clean user experiences.
 
