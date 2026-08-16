@@ -20,8 +20,8 @@ I'm a Software Development graduate based in **Moncton, New Brunswick, Canada �
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=dominhtri055&show_icons=true&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true" alt="Tri Do's GitHub stats" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dominhtri055&layout=compact&theme=tokyonight&hide_border=false&langs_count=8" alt="Tri Do's most used languages" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=dominhtri055&theme=github_dark" alt="Tri Do's GitHub stats" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=dominhtri055&theme=github_dark" alt="Tri Do's most used languages" />
 </p>
 
 ## 🚀 Featured Projects
