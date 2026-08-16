@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/dominhtri055/dominhtri055/master/assets/cat-walk.svg" width="100%" alt="Animated cat walking back and forth over Tri Do" />
+  <img src="https://raw.githubusercontent.com/dominhtri055/dominhtri055/master/assets/cat-walk.svg?v=3" width="100%" alt="Animated cat walking, lying down on Tri Do, then walking again" />
 </p>
 
 <p align="left">
