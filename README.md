@@ -2,6 +2,10 @@
   Hi there <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px" alt="Waving hand" /> I'm Tri Do
 </h1>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/dominhtri055/dominhtri055/master/assets/cat-walk.svg" width="100%" alt="Animated cat walking back and forth over Tri Do" />
+</p>
+
 <p align="left">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&width=700&lines=Full-Stack+%2F+Web+Developer;React+%7C+Next.js+%7C+TypeScript+%7C+React+Native;Building+practical+products+with+clean+UX+%26+solid+backends" alt="Typing SVG" />
 </p>
