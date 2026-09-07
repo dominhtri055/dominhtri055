@@ -4,7 +4,7 @@
   <img src="https://raw.githubusercontent.com/dominhtri055/dominhtri055/master/assets/cat-walk.svg?v=4" width="100%" alt="Animated cat walking across the profile" />
 </p>
 
-### Junior Full-Stack Developer · React · Next.js · TypeScript
+### Junior Full-Stack Developer | React · Next.js · TypeScript
 
 Software Development graduate based in **Moncton, New Brunswick, Canada**. I build practical web and mobile products from interface to database, with a focus on typed front ends, APIs, authentication, data modeling, and maintainable application structure.
 
