@@ -35,7 +35,7 @@ Modular full-stack application with database-backed forms, validation, search/ar
 
 **Evidence:** Spring MVC · JPA/Hibernate persistence · JWT authentication · MySQL · modular Maven structure
 
-### [License Plate Assignment API](https://github.com/dominhtri055/COMP9784-87486-Final-Project)
+### [License Plate Assignment API](https://github.com/dominhtri055/license-plate-assignment-api)
 REST API for VIN-based licence plate assignment, revocation, and verification.
 
 **Evidence:** MongoDB persistence · API-key middleware · rate limiting · Helmet/CORS · uniqueness handling · centralized errors
